@@ -30,7 +30,7 @@ public class CardatabaseApplication {
 	
 	CommandLineRunner runner() {
 		return args ->{
-			
+			logger.info("Finding the treasure.");
 			Owner own1 = new Owner("Aditya", "Deshmukh");
 			Owner own2 = new Owner("John", "Doe");
 			
